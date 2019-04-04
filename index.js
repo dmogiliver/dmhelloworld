@@ -1,14 +1,15 @@
-//importing node framework
-var express = require(‘express’);
- 
-var app = express();
+//Load express module with `require` directive
+var express = require('express')
+var app = express()
 
-//Respond with "hello world" for requests that hit our root "/"
-app.get(‘/’, function (req, res) {
- res.send(‘hello world from dmogiliver@insightdevops’);
-});
+//Define request response in root URL (/)
+app.get('/', function (req, res) {
+  res.send('Hello World from dmogiliver@insightops!')
+})
 
-//listen to port 3000 by default
-app.listen(process.env.PORT || 3000);
- 
-module.exports = app;
+//Launch listening server on port 3000
+app.listen(8081, function () {
+  console.log('app listening on port 3000!')
+})
+
+
