@@ -1,6 +1,6 @@
 {
   "name": "dmhelloworld",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Node.js dmogiliver demo deployed by Jenkins",
   "main": "index.js",
   "dependencies": {
